@@ -1,0 +1,94 @@
+body
+{
+    font-family: 'Minehead DEMO','Times New Roman', Times, serif;
+    background: url('images/fond4.jpg');
+}
+#div
+{
+  width: 55%;
+  height: 740px;
+  border-radius: 5px;
+  background: url("images/fond.jpg");
+  background-size: cover;
+}
+#div1
+{
+    width: 50%;
+    height: 300px;
+    margin-top: -13%;
+    transition: all .7s;
+}
+input[type='text']
+{
+    border-radius: 45px;
+    background-color: goldenrod;
+    width: 45px;
+    height: 50px;
+    color: black;
+    font-style: bold;
+    margin-top: -1%;
+    font-size: 30px;
+    text-align: center;
+    border: transparent;
+    box-shadow: 0 5px 5px 0 black;
+    text-align: center;
+    font-family: 'Minehead DEMO','Times New Roman', Times, serif;
+}
+hr
+{
+    height: 5px;
+    width: 95%;
+    background-color: black;
+}
+#theme
+{
+    display: block;
+    width: 200px;
+    background-color: greenyellow;
+    border: 4px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+#next,#rejouer
+{
+    width: 200px;
+    background-color: greenyellow;
+    border: 4px solid black;
+    border-radius: 5px;
+    font-family: 'Minehead DEMO', 'Times New Roman', Times, serif;
+    font-size: 45px;   
+}
+#div2 input[type="button"]
+{
+    font-family: 'Minehead DEMO','Times New Roman', Times, serif;
+    font-size: 65px;
+    color: black;
+    background: transparent;
+    border: transparent;
+}
+#div3 input[type="button"]
+{
+    font-family: 'Minehead DEMO','Times New Roman', Times, serif;
+    font-size: 45px;
+    color: blue;
+    background: transparent;
+    border: transparent;
+    width: 35px;
+    border-bottom: 4px solid blue;
+    transition: all .6s;   
+}
+#div3
+{
+    margin-top: -3%;
+}
+p
+{
+    font-size: 45px;
+    color: green;
+}
+h2
+{
+    font-size: 65px;
+    color: red;  
+}
