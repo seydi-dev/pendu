@@ -2,14 +2,23 @@ body
 {
     font-family: 'Minehead DEMO','Times New Roman', Times, serif;
     background: url('images/fond4.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
 }
 #div
 {
-  width: 55%;
-  height: 740px;
-  border-radius: 5px;
-  background: url("images/fond.jpg");
-  background-size: cover;
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: url("images/fond.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 #div1
 {
